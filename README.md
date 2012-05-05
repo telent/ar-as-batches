@@ -15,6 +15,6 @@ specified by the `:batch_size` option) and yields each record.
 
 Unlike `#find_each` it honours `order`, `limit` and `offset` options
 on your query, so if you want records in reverse chronological order
-instead of ascending date order, and you want to start on page 2:
+instead of ascending id order, and you want to start on page 2:
 you're welcome.
 
